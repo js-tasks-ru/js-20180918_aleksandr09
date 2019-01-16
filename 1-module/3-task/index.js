@@ -9,6 +9,7 @@ function getMinMax(str) {
   let current = 0;
   let numbers = [];
 
+"03"
   for (let i = 0; i < str.length; i++) {
 
     if (isNumeric(parseFloat(str.substring(current)))) {
